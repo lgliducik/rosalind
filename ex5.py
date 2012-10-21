@@ -6,7 +6,7 @@ alph = {
     'AUU': 'I',
     'GUU': 'V',
     'UUC': 'F','CUC' :'L','AUC': 'I',
-'GUC': 'V','UUA': 'L','CUA' :'L','AUA' :'I','GUA' :'V', 'UUG' :'L','CUG' :'L',ÊÊÊÊÊ 
+'GUC': 'V','UUA': 'L','CUA' :'L','AUA' :'I','GUA' :'V', 'UUG' :'L','CUG' :'L',Â Â Â Â Â  
 'AUG': 'M','GUG': 'V','UCU' :'S','CCU' :'P','ACU': 'T','GCU' :'A','UCC' :'S',
 'CCC': 'P','ACC': 'T','GCC': 'A','UCA' :'S','CCA': 'P','ACA': 'T','GCA': 'A',
 'UCG' :'S', 'CCG': 'P', 'ACG': 'T','GCG': 'A','UAU' :'Y', 'CAU' :'H','AAU': 'N',
@@ -19,17 +19,17 @@ alph = {
 i = 0
 newl = []
 for element in l:
-ÊÊÊ if i<len(l)/3:
+Â Â Â  if i<len(l)/3:
 
-ÊÊÊ ÊÊÊ newstr = l[ i * 3 : ( i + 1 ) * 3 ]
-ÊÊÊ ÊÊÊ s = alph[newstr]
-ÊÊÊ ÊÊÊ newl.append(s)
-ÊÊÊ i = i + 1
+Â Â Â  Â Â Â  newstr = l[ i * 3 : ( i + 1 ) * 3 ]
+Â Â Â  Â Â Â  s = alph[newstr]
+Â Â Â  Â Â Â  newl.append(s)
+Â Â Â  i = i + 1
 string = ''
 ii = 0
 for element in newl:
-ÊÊÊ if newl[ii] != 'Stop':
-ÊÊÊ ÊÊÊ string = string + element
-ÊÊÊ ÊÊÊ ii = ii + 1
+Â Â Â  if newl[ii] != 'Stop':
+Â Â Â  Â Â Â  string = string + element
+Â Â Â  Â Â Â  ii = ii + 1
 print string
 f.write(string)
