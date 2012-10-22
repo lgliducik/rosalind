@@ -1,8 +1,10 @@
 # coding: utf-8
+import sys
+
 
 # 3 task
-l = input()
-f = open("test.txt",'w')
+l = sys.argv[1]
+f = open("test3.txt",'w')
 i = 0
 newl = []
 for element in l:

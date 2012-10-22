@@ -1,6 +1,9 @@
 # 4 task
-l1 = input()
-l2 = input()
+import sys
+
+
+l1 = sys.argv[1]
+l2 = sys.argv[2]
 i = 0
 rez = 0
 for element in l1:
